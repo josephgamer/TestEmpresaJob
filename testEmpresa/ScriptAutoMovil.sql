@@ -12,5 +12,9 @@ create table automovil(
 
 
 insert into automovil values('123','Amarillo',4,2018,'Hilux','Toyota',
-                            'Combustible','Automovil');
+                            'Automovil','Combustible');
+insert into automovil values('BNM','Verde',0,2018,'Coral','Serpento',
+                            'Motocicleta','Combustible');
+insert into automovil values('456TUY','Azul',2,2021,'Spark','Chevrolet',
+                            'Automovil','Electrico');
 select * from automovil;
